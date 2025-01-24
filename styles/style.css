@@ -40,12 +40,32 @@
     margin: 0 auto;
 }
 
+body {
+    background-color: #f7f7f7;
+}
+
 /* Navigation bar styles */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 2px solid tomato;
+
+}
+
+nav button {
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 20px;
+    border: 0;
+    background: rgb(254, 163, 1);
+    color: aliceblue;
+}
+
+nav button:hover {
+    cursor: pointer;
 }
 
 #nev-log {
@@ -57,4 +77,38 @@ nav {
 #nev-log>h3 {
     font-size: 32px;
     color: rgb(17, 17, 17);
+}
+
+#nev-menu>ul {
+    display: flex;
+    gap: 18px;
+}
+
+#nev-menu li {
+    list-style: none;
+}
+
+#nev-menu li>a {
+    text-decoration: none;
+}
+
+#ho1 {
+    color: rgb(254, 163, 1);
+    font-size: 20px;
+}
+
+#ao1 {
+    color: skyblue;
+    font-size: 20px;
+}
+
+#fo1 {
+    color: turquoise;
+    font-size: 20px;
+
+}
+
+#ado1 {
+    color: blueviolet;
+    font-size: 20px;
 }
