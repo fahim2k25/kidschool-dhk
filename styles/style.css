@@ -33,3 +33,28 @@
     font-weight: 500;
     font-style: normal;
 }
+
+/* SHared Styles */
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* Navigation bar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid tomato;
+}
+
+#nev-log {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#nev-log>h3 {
+    font-size: 32px;
+    color: rgb(17, 17, 17);
+}
