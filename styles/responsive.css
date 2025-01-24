@@ -1,0 +1,22 @@
+@media screen and (max-width:576px) {
+    nav {
+        box-sizing: border-box;
+        border: 0.5px solid rgb(254, 163, 1);
+    }
+
+    #nev-log>h3 {
+        display: none;
+    }
+
+    #nev-menu {
+        display: none;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    #nev-burg {
+        display: unset;
+    }
+}

@@ -1,3 +1,9 @@
+/* Global styles */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 /* Google FOnt STyles */
 .quicksand-400 {
     font-family: "Quicksand", serif;
@@ -44,12 +50,19 @@ body {
     background-color: #f7f7f7;
 }
 
+.vanish {
+    display: none;
+}
+
 /* Navigation bar styles */
+header {
+    margin: 35px 0px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid tomato;
 
 }
 
@@ -90,6 +103,11 @@ nav button:hover {
 
 #nev-menu li>a {
     text-decoration: none;
+}
+
+#nev-burg>img {
+    width: 40px;
+    height: 35px;
 }
 
 #ho1 {
