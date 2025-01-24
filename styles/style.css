@@ -1,16 +1,33 @@
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 700
-
-.quicksand-<uniquifier> {
+/* Google FOnt STyles */
+.quicksand-400 {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
+.quicksand-500 {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
 
-.raleway-<uniquifier> {
+.quicksand-600 {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.quicksand-700 {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.raleway-500 {
     font-family: "Raleway", serif;
     font-optical-sizing: auto;
     font-weight: 500;
