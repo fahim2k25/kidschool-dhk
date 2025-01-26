@@ -177,6 +177,8 @@ hr {
 
 .card-container {
     display: flex;
+    gap: 30px;
+    justify-content: space-around;
 }
 
 #arrow-btn {
@@ -202,6 +204,8 @@ hr {
 }
 
 .card-1 {
+    width: 370px;
+    height: 476px;
     box-sizing: border-box;
     border: 0.94px solid rgb(222, 245, 255);
     border-radius: 18.86px;
@@ -210,6 +214,8 @@ hr {
 }
 
 .card-2 {
+    width: 370px;
+    height: 476px;
     box-sizing: border-box;
     border: 0.94px solid rgb(255, 244, 220);
     border-radius: 18.86px;
@@ -218,6 +224,8 @@ hr {
 }
 
 .card-3 {
+    width: 370px;
+    height: 476px;
     box-sizing: border-box;
     border: 0.94px solid rgb(242, 232, 255);
     border-radius: 18.86px;
