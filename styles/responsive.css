@@ -1,4 +1,14 @@
 @media screen and (max-width:576px) {
+    /* .container {
+        max-width: 350px;
+        margin: 0 auto;
+    } */
+
+    /* Navigation */
+    header {
+        margin: 0;
+    }
+
     nav {
         box-sizing: border-box;
         border: 0.5px solid rgb(254, 163, 1);
@@ -18,5 +28,33 @@
 
     #nev-burg {
         display: unset;
+    }
+
+    /* Banner */
+    #banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 20px;
+        padding: 18px;
+    }
+
+    #banner h1 {
+        font-size: 32px;
+    }
+
+    #banner p {
+        font-size: 14px;
+    }
+
+    #banner img {
+        width: 340px;
+    }
+
+    #banner button {
+        width: 131px;
+        height: 42px;
+        margin-top: 0;
+        padding: 6px 24px 6px 24px;
+        font-size: 12px;
     }
 }
