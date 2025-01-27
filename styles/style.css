@@ -246,3 +246,12 @@ hr {
 p {
     margin-bottom: 35px;
 }
+
+.card-container h4 {
+    font-size: 24px;
+}
+
+.card-container p {
+    color: rgb(128, 128, 128);
+    font-size: 16px;
+}
