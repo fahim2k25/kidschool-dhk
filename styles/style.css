@@ -175,6 +175,12 @@ hr {
     background-image: url('../assets/bg.png');
 }
 
+#standard h1 {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-size: 46px;
+}
+
 .card-container {
     display: flex;
     gap: 30px;
@@ -204,31 +210,39 @@ hr {
 }
 
 .card-1 {
-    width: 370px;
-    height: 476px;
     box-sizing: border-box;
     border: 0.94px solid rgb(222, 245, 255);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    padding: 30px;
 }
 
 .card-2 {
-    width: 370px;
-    height: 476px;
     box-sizing: border-box;
     border: 0.94px solid rgb(255, 244, 220);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    padding: 30px;
 }
 
 .card-3 {
-    width: 370px;
-    height: 476px;
+    padding: 40px;
     box-sizing: border-box;
     border: 0.94px solid rgb(242, 232, 255);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card-container img {
+    width: 130px;
+    height: 110px;
+    margin-bottom: 35px;
+}
+
+.card-container h4,
+p {
+    margin-bottom: 35px;
 }
