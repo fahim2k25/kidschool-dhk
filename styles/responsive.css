@@ -57,4 +57,9 @@
         padding: 6px 24px 6px 24px;
         font-size: 12px;
     }
+
+    /* Standard CUrriculum */
+    .card-container {
+        flex-direction: column;
+    }
 }
