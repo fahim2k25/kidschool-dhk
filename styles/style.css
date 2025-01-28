@@ -305,3 +305,57 @@ p {
 #view-btn:hover {
     cursor: pointer;
 }
+
+#stry-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    /* grid-template-rows: repeat(2, 1fr); */
+}
+
+#stry-grid img {
+    border-radius: 16px 16px 0px 0px;
+    margin-bottom: 10%;
+}
+
+#story-1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+#story-2,
+#story-3,
+#story-4,
+#story-5 {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+
+#story-1 button {
+
+    position: absolute;
+}
+
+#story-2 button {
+
+    position: absolute;
+}
+
+#story-3 button {
+
+    position: absolute;
+}
+
+#story-4button {
+
+    position: absolute;
+}
+
+#story-5 button {
+
+    position: absolute;
+}
