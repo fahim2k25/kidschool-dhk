@@ -61,5 +61,54 @@
     /* Standard CUrriculum */
     .card-container {
         flex-direction: column;
+        text-align: center;
+        padding: 18px;
     }
+
+    #standard h1 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .card-container h4 {
+        font-size: 17px;
+    }
+
+    .card-container p {
+        font-size: 13px;
+    }
+
+    #read1,
+    #read2,
+    #read3 {
+        font-size: 13px;
+    }
+
+    #arrow-btn {
+        display: none;
+    }
+
+    .card-container img {
+        width: 84px;
+        height: 85px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
